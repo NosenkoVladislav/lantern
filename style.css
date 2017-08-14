@@ -1,0 +1,52 @@
+	body {
+		margin: 0;
+	}
+
+	.lantern {
+		width: 200px;
+		height: 500px;
+		border: 1px solid black;
+		border-radius: 5px;
+		margin: 50px auto;
+		background-color: #b0b0b0;
+	}
+
+	.lamps {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		border: 1px solid black;
+		margin: 0 auto;
+		margin-top: 10px;
+		background-color: #fff;
+	}
+	
+	.red {
+		background-color: #8e0808;
+	}
+
+	.yellow {
+		background-color: #a7a700;
+	}
+
+	.green {
+		background-color: #004400;
+	}
+
+	.red.active {
+		background-color: red;
+	}
+
+	.yellow.active {
+		background-color: yellow;
+	}
+
+	.green.active {
+		background-color: #27e027;
+	}
+
+	.dummy_cat {
+		width: 50px;
+		position: absolute;
+		bottom: 0;
+	}
